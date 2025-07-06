@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Laura</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ECF0F1;
+            color: #2C3E50;
+        }
+        .navbar {
+            background-color: #2C3E50;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .hero {
+            background: linear-gradient(to right, #4B6584, #778CA3);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+        }
+        .highlight {
+            font (continues...)
+            font-weight: 600;
+            text-decoration: underline;
+            color: #fff;
+        }
+        .portfolio-section {
+            padding: 60px 0;
+        }
+        .portfolio-item {
+            transition: transform 0.3s ease;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            < psychoactive="navbar-brand" href="index.html">Laura</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfólio Completo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regras.html">Regras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Bem-vindo ao meu Portfólio</h1>
+            <p>Confira meus banners e ícones personalizados para o Twitter! Veja mais trabalhos clicando <a href="portfolio.html" class="highlight">aqui</a>.</p>
+        </div>
+    </section>
+
+    <!-- Simplified Portfolio Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Destaques do Portfólio</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <h4>Cliente 1 - Projeto X</h4>
+                        <img src="https://via.placeholder.com/300x200.png?text=Banner+Cliente+1" alt="Banner Cliente 1" class="portfolio-img">
+                        <p>Banner personalizado para o Cliente 1.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <h4>Cliente 2 - Campanha Y</h4>
+                        <img src="https://via.placeholder.com/300x200.png?text=Banner+Cliente+2" alt="Banner Cliente 2" class="portfolio-img">
+                        <p>Banner para campanha promocional.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <h4>Cliente 1 - Projeto X</h4>
+                        <img src="https://via.placeholder.com/150x150.png?text=Ícone+Cliente+1" alt="Ícone Cliente 1" class="portfolio-img">
+                        <p>Ícone de perfil para o Cliente 1.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <h4>Cliente 3 - Avatar Z</h4>
+                        <img src="https://via.placeholder.com/150x150.png?text=Ícone+Cliente+3" alt="Ícone Cliente 3" class="portfolio-img">
+                        <p>Ícone personalizado para perfil.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="portfolio.html" class="btn btn-primary">Ver Portfólio Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Laura. Todos os direitos reservados.</p>
+            <p>Siga-me no Twitter: <a href="https://twitter.com/eilishdontsmile" style="color: #fff;">@eilishdontsmile</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

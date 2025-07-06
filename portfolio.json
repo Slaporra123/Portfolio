@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Cliente 1 - Projeto X",
+        "description": "Banner e ícone personalizados para o Cliente 1.",
+        "banner": "https://via.placeholder.com/300x200.png?text=Banner+Cliente+1",
+        "icon": "https://via.placeholder.com/150x150.png?text=Ícone+Cliente+1"
+    },
+    {
+        "title": "Cliente 2 - Campanha Y",
+        "description": "Banner para campanha promocional com ícone de perfil.",
+        "banner": "https://via.placeholder.com/300x200.png?text=Banner+Cliente+2",
+        "icon": "https://via.placeholder.com/150x150.png?text=Ícone+Cliente+2"
+    },
+    {
+        "title": "Cliente 3 - Avatar Z",
+        "description": "Ícone personalizado e banner para perfil.",
+        "banner": "https://via.placeholder.com/300x200.png?text=Banner+Cliente+3",
+        "icon": "https://via.placeholder.com/150x150.png?text=Ícone+Cliente+3"
+    }
+]
